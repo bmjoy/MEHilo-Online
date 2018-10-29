@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MehiloOnline.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{FFFA2778-B48B-44D4-959C-F4D36D7B3587}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MehiloOnline.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MehiloOnlineEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{1F0A7958-5A70-4552-90A6-59D1F906062C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MehiloOnline">
+			<UniqueIdentifier>{481EBFC7-24B7-4346-95D6-0E7027171590}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MehiloOnline\LobbyGameMode.cpp">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\LobbyGameMode.h">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\MehiloOnline\MehiloOnline.Build.cs">
+			<Filter>Source\MehiloOnline</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MehiloOnline\MehiloOnline.cpp">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MehiloOnline.h">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MehiloOnline\MehiloOnlineCharacter.cpp">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MehiloOnlineCharacter.h">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MehiloOnline\MehiloOnlineGameInstance.cpp">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MehiloOnlineGameInstance.h">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MehiloOnline\MehiloOnlineGameMode.cpp">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MehiloOnlineGameMode.h">
+			<Filter>Source\MehiloOnline</Filter>
+		</ClInclude >
+		<Filter Include="Source\MehiloOnline\MenuSystem">
+			<UniqueIdentifier>{3107B5BE-2B13-4DB3-AA3C-97F12166823D}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MehiloOnline\MenuSystem\InGameMenu.cpp">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MenuSystem\InGameMenu.h">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MehiloOnline\MenuSystem\MainMenu.cpp">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MenuSystem\MainMenu.h">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MehiloOnline\MenuSystem\MenuInterface.cpp">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MenuSystem\MenuInterface.h">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MehiloOnline\MenuSystem\MenuWidget.cpp">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MenuSystem\MenuWidget.h">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MehiloOnline\MenuSystem\ServerRow.cpp">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MehiloOnline\MenuSystem\ServerRow.h">
+			<Filter>Source\MehiloOnline\MenuSystem</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
