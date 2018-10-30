@@ -60,7 +60,7 @@ void UMehiloOnlineGameInstance::LoadMenuWidget()
 
 	Menu = CreateWidget<UMainMenu>(this, MenuClass);
 	if (!ensure(Menu != nullptr)) return;
-
+	UE_LOG(LogTemp, Warning, TEXT("CHAMOU A FUNÇÃO"));
 	Menu->Setup();
 	Menu->SetMenuInterface(this);
 }

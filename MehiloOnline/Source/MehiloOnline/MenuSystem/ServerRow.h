@@ -38,7 +38,6 @@ private:
 
 	uint32 Index;
 
-
 	UFUNCTION()
 	void OnClicked();
 };
